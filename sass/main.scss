@@ -147,7 +147,6 @@ p {
 	}
 }
 
-
 // =================
 // Navigation Arrow
 // =================
@@ -198,7 +197,7 @@ p {
 // =================
 
 // Search Icon
-.icon__search {
+.icon-search {
 	color: #fff;
     position: absolute;
     top: 39%;
@@ -222,7 +221,7 @@ p {
 }
 
 // Dollar Icon
-.icon__dollar {
+.icon-dollar {
 	position: absolute;
 	top: 37%;
     left: 25%;
@@ -243,7 +242,7 @@ p {
 }
 
 // Profile Icon
-.icon__profile {
+.icon-profile {
 	color: #fff;
 	position: absolute;
 	top: 47%;
@@ -267,7 +266,7 @@ p {
 }
 
 // Graph Icon
-.icon__graph {
+.icon-graph {
 	color: #fff;
     position: absolute;
     top: 41%;
@@ -298,6 +297,15 @@ p {
 	}
 }
 
+// Hover Animation
+.nav-item:hover .icon_hover {
+	transform: scale(1.1);
+	transition: linear .2s all;
+}
+
+.nav-item:hover .icon-search {
+	transform: rotate(-45deg) scale(1.1);
+}
 
 // ================= //
 // 		FOOTER		 //
